@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+C = int(input())
+P1 = str(input())
+P2 = str(input())
+SEQ = ((P1 * (A + B)) + (P2 * (B + C))) * (A + C)
+print(SEQ)
